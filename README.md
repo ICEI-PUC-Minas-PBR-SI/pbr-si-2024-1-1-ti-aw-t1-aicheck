@@ -1,22 +1,22 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`CURSO: Sistemas de Informação`
 
-`DISCIPLINA`
+`DISCIPLINA: Trabalho Interdisciplinar: Aplicações Web`
 
-`SEMESTRE`
+`SEMESTRE: 1`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
 * Pedro Barbosa Cortez
-* Fernando
-* Samuel
+* Fernando Rodrigues
+* Samuel Gonçalves
 
 ## Orientador
 
-* Nome completo do professor 1
+* Wesley Dias Maciel
 
 ## Instruções de utilização
 

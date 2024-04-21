@@ -6,6 +6,15 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
+Visão geral:
+
+1)Algoritmos de Detecção Avançados: Descreveremos os algoritmos de detecção utilizados em nosso projeto, incluindo técnicas de aprendizado de máquina, processamento de imagem e análise de vídeo.
+2)Processamento de Imagem e Vídeo: Exploraremos as técnicas de processamento de imagem e vídeo empregadas para identificar padrões e características distintivas associadas a conteúdo gerado por inteligência artificial.
+3)Redes Neurais Convolucionais (CNNs): Abordaremos o uso de redes neurais convolucionais para análise e classificação de imagens, destacando sua eficácia na detecção de padrões complexos em conjuntos de dados visuais.
+4)Técnicas de Análise de Áudio: Discutiremos as técnicas de análise de áudio empregadas para detecção de conteúdo falso em arquivos de áudio, incluindo análise espectral e modelagem de linguagem.
+5)Ferramentas de Aprendizado de Máquina: Apresentaremos as ferramentas e bibliotecas de aprendizado de máquina utilizadas em nosso projeto, como TensorFlow, PyTorch e scikit-learn, e como elas foram aplicadas na implementação dos algoritmos de detecção.
+6)Bancos de Dados e Conjuntos de Dados: Descreveremos os bancos de dados e conjuntos de dados utilizados para treinar e testar nossos modelos de detecção, destacando sua importância na obtenção de resultados precisos e confiáveis.
+
 ## Personas
 
 Camila tem 25 anos, é psicóloga e influencer. É sociável, intensa, gosta de rock, sair de casa e tem muitos amigos. Tem o sonho de casar, ser mãe, crescer ainda mais nas redes sociais e escrever um livro. Ela quer proteger sua imagem pública e sua reputação online. Como uma figura pública de sucesso nas redes sociais, ela precisa garantir que sua identidade não seja usada indevidamente por golpistas ou para disseminação de fake news e desinformação. É necessário tratá-la com respeito, transparência e confiança. Ela valoriza a sinceridade e a autenticidade, então é essencial manter uma comunicação clara e direta com ela. Além disso, demonstrar interesse genuíno em suas preocupações e oferecer soluções que atendam às suas necessidades específicas são formas eficazes de deixá-la feliz.

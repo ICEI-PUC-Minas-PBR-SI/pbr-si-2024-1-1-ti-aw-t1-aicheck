@@ -8,6 +8,8 @@ Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do proje
 
 Nome e marca do projeto
 
+IACheck
+
 ## Identidade Visual (Marca, Design)
 
 O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.

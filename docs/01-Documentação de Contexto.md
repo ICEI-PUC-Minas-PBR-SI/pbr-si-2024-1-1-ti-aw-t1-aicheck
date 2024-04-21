@@ -3,7 +3,7 @@
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
 Nos ultimos três anos houve um crescimento exponencial do lucro e apliações do mercado de IA, houve uma rápida popularização na mídia e sociedade que fez surgir inúmeras empresas
-expandindo para todas as áreas. Isso é bom pois permitiu um enorme ganho de produtividade, entretanto da mesma forma ocorreu o começo de golpes e fake news utilizando de IA que tentem se multiplicar. O nosso objetivo é criar um software que consiga detectar o uso de IA se passando por individuous para aplicação de fake news e golspes. O público alvo será principalmente de celebridades, influencers, pessoas públicas, mas qualquer individuo pode utilizar de nosso programa para segurança própria. 
+expandindo para todas as áreas. Isso é bom pois permitiu um enorme ganho de produtividade, entretanto da mesma forma ocorreu o começo de golpes e fake news utilizando de IA que tendem se multiplicar. O nosso objetivo é criar um software que consiga detectar o uso de IA se passando por individuos para aplicação de fake news e golpes. O público alvo será principalmente de celebridades, influencers, pessoas públicas, mas qualquer individuo pode utilizar de nosso programa para segurança própria. 
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -12,7 +12,7 @@ Descreva também o contexto em que essa aplicação será usada, se  houver: emp
 
 Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
-
+O número de golpes e fake news utilizando de IA começou e deve ter uma tendencia de se multiplicar como o uso de falsas imagens, vídeos e aúdios em figuras públicas para manipular a opinião pública e derrubar reputações ou para se passar por outras pessoas e conseguir um ganho financeiro. Nosso objetivo é alertar e comunicar indíviduos sobre esses riscos ou se estão caindo nessas manipulações.
 
 
 > **Links Úteis**:
@@ -25,7 +25,19 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
 
 Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
+
+Objetivo geral:
+
+Desenvolver e fornecer soluções inovadoras para a detecção de imagens e vídeos gerados por inteligência artificial. Nosso propósito é contribuir para a preservação da integridade da informação e combater a disseminação de conteúdo falsificado, protegendo a sociedade contra desinformação e manipulação.
+
+Objetivos específicos:
+
+Desenvolver algoritmos avançados de detecção: Nosso objetivo é criar algoritmos sofisticados de análise de imagem e vídeo, capazes de identificar características distintivas associadas a conteúdo gerado por inteligência artificial.
+Aperfeiçoar constantemente nossas soluções: Comprometemo-nos a realizar pesquisas contínuas e aprimoramentos em nossos métodos de detecção, garantindo que estejamos sempre à frente das técnicas de manipulação de mídia.
+Educar e conscientizar o público: Buscamos educar o público sobre os riscos associados à disseminação de conteúdo falsificado e fornecer recursos para ajudar os usuários a identificar e evitar a propagação de informações enganosas.
+Colaborar com parceiros e instituições: Planejamos estabelecer parcerias estratégicas com instituições de pesquisa, organizações governamentais e empresas de mídia para fortalecer nossos esforços na luta contra a desinformação.
+
+
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
@@ -34,6 +46,8 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
 
 O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+
+Como o número de falsificação de imagens, videos e audios está se tornando um problema cada vez maior, a detecção de imagens e vídeos gerados por inteligência artificial é crucial para combater a disseminação de conteúdo falso na era digital. Nosso objetivo é criar soluções abrangentes e eficazes para enfrentar esse desafio, motivados pela importância de proteger a integridade da informação e promover a confiança pública. Escolhemos objetivos específicos para desenvolver algoritmos avançados de detecção, implementar uma plataforma acessível, aperfeiçoar constantemente nossas soluções, educar o público, colaborar com parceiros e promover a ética no uso de IA. Essas ações visam fornecer ferramentas e conhecimentos necessários para identificar e combater conteúdo falso, promovendo transparência e segurança na era digital.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
@@ -44,6 +58,8 @@ Descreva quem serão as pessoas que usarão a sua aplicação indicando os difer
 hierárquicas, etc.
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+
+O público alvo será principalmente de celebridades, influencers, pessoas públicas, mas qualquer individuo pode utilizar de nosso programa para segurança própria. 
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)

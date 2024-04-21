@@ -8,12 +8,12 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 Visão geral:
 
-1)Algoritmos de Detecção Avançados: Descreveremos os algoritmos de detecção utilizados em nosso projeto, incluindo técnicas de aprendizado de máquina, processamento de imagem e análise de vídeo.
-2)Processamento de Imagem e Vídeo: Exploraremos as técnicas de processamento de imagem e vídeo empregadas para identificar padrões e características distintivas associadas a conteúdo gerado por inteligência artificial.
-3)Redes Neurais Convolucionais (CNNs): Abordaremos o uso de redes neurais convolucionais para análise e classificação de imagens, destacando sua eficácia na detecção de padrões complexos em conjuntos de dados visuais.
-4)Técnicas de Análise de Áudio: Discutiremos as técnicas de análise de áudio empregadas para detecção de conteúdo falso em arquivos de áudio, incluindo análise espectral e modelagem de linguagem.
-5)Ferramentas de Aprendizado de Máquina: Apresentaremos as ferramentas e bibliotecas de aprendizado de máquina utilizadas em nosso projeto, como TensorFlow, PyTorch e scikit-learn, e como elas foram aplicadas na implementação dos algoritmos de detecção.
-6)Bancos de Dados e Conjuntos de Dados: Descreveremos os bancos de dados e conjuntos de dados utilizados para treinar e testar nossos modelos de detecção, destacando sua importância na obtenção de resultados precisos e confiáveis.
+> - 1)Algoritmos de Detecção Avançados: Descreveremos os algoritmos de detecção utilizados em nosso projeto, incluindo técnicas de aprendizado de máquina, processamento de imagem e análise de vídeo.
+> - 2)Processamento de Imagem e Vídeo: Exploraremos as técnicas de processamento de imagem e vídeo empregadas para identificar padrões e características distintivas associadas a conteúdo gerado por inteligência artificial.
+> - 3)Redes Neurais Convolucionais (CNNs): Abordaremos o uso de redes neurais convolucionais para análise e classificação de imagens, destacando sua eficácia na detecção de padrões complexos em conjuntos de dados visuais.
+> - 4)Técnicas de Análise de Áudio: Discutiremos as técnicas de análise de áudio empregadas para detecção de conteúdo falso em arquivos de áudio, incluindo análise espectral e modelagem de linguagem.
+> - 5)Ferramentas de Aprendizado de Máquina: Apresentaremos as ferramentas e bibliotecas de aprendizado de máquina utilizadas em nosso projeto, como TensorFlow, PyTorch e scikit-learn, e como elas foram aplicadas na implementação dos algoritmos de detecção.
+> - 6)Bancos de Dados e Conjuntos de Dados: Descreveremos os bancos de dados e conjuntos de dados utilizados para treinar e testar nossos modelos de detecção, destacando sua importância na obtenção de resultados precisos e confiáveis.
 
 ## Personas
 
@@ -44,6 +44,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+
+Camila agenda uma reunião com um representante da empresa e explica suas preocupações e necessidades. Camila enfatiza a importância de manter sua autenticidade e transparência com seus seguidores, e expressa sua preocupação com a disseminação de informações falsas em seu nome. O representante da empresa ouve atentamente suas preocupações e explica os serviços que podem oferecer para proteger sua identidade e reputação online.
+
+|EU COMO... `Camila` | QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário do sistema  | Alerta de fraude                   | Não esquecer de fazê-las               |
+|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)

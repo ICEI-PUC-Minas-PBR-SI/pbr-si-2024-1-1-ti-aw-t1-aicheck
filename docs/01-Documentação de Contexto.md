@@ -3,9 +3,7 @@
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
 Nos ultimos 3 anos houve um crescimento exponencial do lucro e apliações do mercado de IA, houve uma rápida popularização na mídia e sociedade que fez surgir inúmeras empresas
-expandindo para todas as áreas. Isso é bom pois permitiu um enorme ganho de produtividade, entretanto da mesma forma ocorreu o começo de golpes e fake news utilizando de IA.
-
-
+expandindo para todas as áreas. Isso é bom pois permitiu um enorme ganho de produtividade, entretanto da mesma forma ocorreu o começo de golpes e fake news utilizando de IA que tentem se multiplicar. O nosso objetivo é criar um software que consiga detectar o uso de IA se passando por individuous para aplicação de fake news e golspes. O público alvo será principalmente de celebridades, influencers, pessoas públicas, mas qualquer individuo pode utilizar de nosso programa para segurança própria. 
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.

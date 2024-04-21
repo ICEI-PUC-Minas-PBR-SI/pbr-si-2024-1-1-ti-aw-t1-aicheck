@@ -49,13 +49,24 @@ Camila contacta a empresa explica suas preocupações e necessidades. Camila enf
 
 Camila estava viajando de carro quando ficou sabendo de um vídeo falso a envolvendo em que seus seguidores estão achando que é real, a viagem é longa e ela teme a repercussão enquanto não poder tomar providências
 
+Maria está querendo aproveitar seu tempo de aposentada para utilizar mais da internet, ao mesmo tempo ela teme ser vitima de criminosos virtuais, ela pesquisa por serviços que podem auxilia-la
+
 |EU COMO... `Camila` | QUERO/PRECISO ... `FUNCIONALIDADE`       |PARA ... `MOTIVO/VALOR`                                                           |
 |--------------------|------------------------------------------|----------------------------------------------------------------------------------|
-|Usuário do sistema  | Notícias de golpes comuns                | Ficar ciente das novas armadilhas e saber se proteger                            |
+|Usuário do sistema  | Informar os tipos de golpes              | Ficar ciente das novas armadilhas e saber se proteger                            |
 |Usuário do sistema  | Relatórios Detalhados                    | Explicar de maneira clara ao usuário para que ele entenda o resultado da análise |
 |Usuário do sistema  | Precisão na Detecção                     | Aumentar a confiabilidade dos clientes e se destacar em relação a concorrência   |
-|Usuário do sistema  | Suporte a diversos dispositivos          | Aumentar o alcance de acesso ao seu sistema                                      |
-|Usuário do sistema  | Suporte a Diferentes Formatos de Arquivo | Aumentar o alcance de acesso ao seu sistema                                      |
+|Usuário do sistema  | Suporte a diversos dispositivos          | Aumentar o alcance de acesso e uso do seu sistema                                |
+|Usuário do sistema  | Suporte a Diferentes Formatos de Arquivo | Aumentar a variedade de usos do sistema                                          |
+
+|EU COMO... `Maria ` | QUERO/PRECISO ... `FUNCIONALIDADE`       |PARA ... `MOTIVO/VALOR`                                                           |
+|--------------------|------------------------------------------|----------------------------------------------------------------------------------|
+|Usuário do sistema  | Informar os tipos de golpes              | Ficar ciente das novas armadilhas e saber se proteger                            |
+|Usuário do sistema  | Relatórios Detalhados                    | Explicar de maneira clara ao usuário para que ele entenda o resultado da análise |
+|Usuário do sistema  | Interface Amigável                       | Para que usuários leigos possam navegar e usar os recursos sem dificuldade.      |
+|Usuário do sistema  | Proteção de Dados                        | Aumentar a confiabilidade dos clientes                                           |
+|Usuário do sistema  | Suporte ao Cliente                       | Auxiliar usuários com dúvidas durante o uso da plataforma                        |
+
 
 
 > **Links Úteis**:
@@ -72,9 +83,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|------|------------------------------------------|-------|
+|RF-001| Informar os tipos de golpes              | ALTA  | 
+|RF-002| Relatórios Detalhados                    | MÉDIA |
+|RF-003| Precisão na Detecção                     | MÉDIA |
+|RF-004| Suporte a diversos dispositivos          | ALTA  |
+|RF-005| Suporte a Diferentes Formatos de Arquivo | ALTA  |
+|RF-006| Interface Amigável                       | MÉDIA |
+|RF-007| Proteção de Dados                        | MÉDIA |
+|RF-008| Suporte ao Cliente                       | BAIXA |
+|RF-009| Emitir um relatório de tarefas no mês    | MÉDIA |
 
 
 ### Requisitos não Funcionais

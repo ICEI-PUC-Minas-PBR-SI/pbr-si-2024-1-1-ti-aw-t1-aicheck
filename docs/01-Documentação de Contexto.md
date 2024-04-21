@@ -2,7 +2,7 @@
 
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
-Nos ultimos 3 anos houve um crescimento exponencial do lucro e apliações do mercado de IA, houve uma rápida popularização na mídia e sociedade que fez surgir inúmeras empresas
+Nos ultimos três anos houve um crescimento exponencial do lucro e apliações do mercado de IA, houve uma rápida popularização na mídia e sociedade que fez surgir inúmeras empresas
 expandindo para todas as áreas. Isso é bom pois permitiu um enorme ganho de produtividade, entretanto da mesma forma ocorreu o começo de golpes e fake news utilizando de IA que tentem se multiplicar. O nosso objetivo é criar um software que consiga detectar o uso de IA se passando por individuous para aplicação de fake news e golspes. O público alvo será principalmente de celebridades, influencers, pessoas públicas, mas qualquer individuo pode utilizar de nosso programa para segurança própria. 
 
 ## Problema
@@ -11,6 +11,9 @@ Nesse momento você deve apresentar o problema que a sua aplicação deve  resol
 Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
 
 Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+
+
+
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)

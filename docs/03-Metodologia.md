@@ -3,7 +3,11 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times)..
+
+Uso de IAs por áudio = uma palavra-chave é gravada no aplicativo como método de detecção. Isso nos permite identificar padrões sonoros característicos associados a conteúdo falsificado
+Uso de IAs por imagem = O software especializado é empregado para detectar pequenas variações nas imagens, permitindo-nos identificar alterações sutis que podem indicar manipulação
+Uso de IAs por vídeo = Um software dedicado é empregado para identificar variações nas sequências de vídeo, auxiliando na detecção de conteúdo falsificado, como deepfakes e edições maliciosas
 
 ## Controle de Versão
 
@@ -40,6 +44,9 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 ### Divisão de Papéis
 
 Apresente a divisão de papéis entre os membros do grupo.
+Scrum Master - Pedro Barbosa Cortez
+Product Owner - Fernando Rodrigues
+Desenvolvedor - Samuel Gonçalves
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 

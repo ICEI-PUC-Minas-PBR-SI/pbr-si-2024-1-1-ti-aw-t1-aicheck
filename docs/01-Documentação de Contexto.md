@@ -2,6 +2,11 @@
 
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
+Nos ultimos 3 anos houve um crescimento exponencial do lucro e apliações do mercado de IA, houve uma rápida popularização na mídia e sociedade que fez surgir inúmeras empresas
+expandindo para todas as áreas. Isso é bom pois permitiu um enorme ganho de produtividade, entretanto da mesma forma ocorreu o começo de golpes e fake news utilizando de IA.
+
+
+
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 

@@ -45,12 +45,18 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-Camila agenda uma reunião com um representante da empresa e explica suas preocupações e necessidades. Camila enfatiza a importância de manter sua autenticidade e transparência com seus seguidores, e expressa sua preocupação com a disseminação de informações falsas em seu nome. O representante da empresa ouve atentamente suas preocupações e explica os serviços que podem oferecer para proteger sua identidade e reputação online.
+Camila contacta a empresa explica suas preocupações e necessidades. Camila enfatiza a importância de manter sua autenticidade e transparência com seus seguidores, e expressa sua preocupação com a disseminação de informações falsas em seu nome. O representante da empresa ouve atentamente suas preocupações e explica os serviços que podem oferecer para proteger sua identidade e reputação online.
 
-|EU COMO... `Camila` | QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Alerta de fraude                   | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+Camila estava viajando de carro quando ficou sabendo de um vídeo falso a envolvendo em que seus seguidores estão achando que é real, a viagem é longa e ela teme a repercussão enquanto não poder tomar providências
+
+|EU COMO... `Camila` | QUERO/PRECISO ... `FUNCIONALIDADE`       |PARA ... `MOTIVO/VALOR`                                                           |
+|--------------------|------------------------------------------|----------------------------------------------------------------------------------|
+|Usuário do sistema  | Notícias de golpes comuns                | Ficar ciente das novas armadilhas e saber se proteger                            |
+|Usuário do sistema  | Relatórios Detalhados                    | Explicar de maneira clara ao usuário para que ele entenda o resultado da análise |
+|Usuário do sistema  | Precisão na Detecção                     | Aumentar a confiabilidade dos clientes e se destacar em relação a concorrência   |
+|Usuário do sistema  | Suporte a diversos dispositivos          | Aumentar o alcance de acesso ao seu sistema                                      |
+|Usuário do sistema  | Suporte a Diferentes Formatos de Arquivo | Aumentar o alcance de acesso ao seu sistema                                      |
+
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)

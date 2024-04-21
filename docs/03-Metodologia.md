@@ -63,6 +63,13 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 > - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
 > - [Tutorial Slack](https://slack.com/intl/en-br/)
 
+Backlog do Produto: O Fernando deverá criar e manter o Backlog do Produto, uma lista de todas as funcionalidades desejadas para o produto, priorizadas de acordo com o valor para o cliente.
+Planejamento da Sprint: No início de cada Sprint, que é um período fixo de tempo para o desenvolvimento do produto (geralmente de duas a quatro semanas), o grupo realiza uma reunião de planejamento da Sprint para selecionar as funcionalidades do Backlog do Produto que serão implementadas durante a Sprint.
+Sprint Backlog: Com base nas funcionalidades selecionadas durante o planejamento da Sprint, a equipe cria o Sprint Backlog, uma lista das tarefas específicas que precisam ser realizadas para implementar as funcionalidades escolhidas.
+Reuniões Diárias: Durante a Sprint, a equipe realiza reuniões diárias curtas, chamadas de Daily Scrum, para discutir o progresso do trabalho, identificar impedimentos e ajustar o plano conforme necessário.
+Revisão da Sprint: Ao final de cada Sprint, o grupo realiza uma reunião de revisão da Sprint para revisar o trabalho concluído, demonstrar as funcionalidades implementadas e obter feedback do Product Owner e dos stakeholders.
+Retrospectiva da Sprint: Após a revisão da Sprint, o grupo realiza uma retrospectiva da Sprint para identificar o que funcionou bem, o que pode ser melhorado e definir ações para aprimorar o processo na próxima Sprint.
+
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:

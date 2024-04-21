@@ -92,7 +92,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-006| Interface Amigável                       | MÉDIA |
 |RF-007| Proteção de Dados                        | MÉDIA |
 |RF-008| Suporte ao Cliente                       | BAIXA |
-|RF-009|                                          | MÉDIA |
 
 
 ### Requisitos não Funcionais

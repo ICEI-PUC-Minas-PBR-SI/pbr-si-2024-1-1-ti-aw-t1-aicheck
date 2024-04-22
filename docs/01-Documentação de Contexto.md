@@ -32,3 +32,9 @@ Como o número de falsificação de imagens, videos e audios está se tornando u
 O público alvo será principalmente de celebridades, influencers, pessoas públicas, mas qualquer individuo pode utilizar de nosso programa para segurança própria. A sua faixa etária deve ser principalmente entre individuos de 20 a 60 anos de idade, brasileiros, com escolaridade mais baixa e menor conhecimento sobre a internet e redes sociais
 
 [Entendimento 02 - Mapa de Stakeholders-1.docx](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2024-1-1-ti-aw-t1-aicheck/files/15055784/Entendimento.02.-.Mapa.de.Stakeholders-1.docx)
+
+## Entrevista
+
+[Entrevista.docx](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2024-1-1-ti-aw-t1-aicheck/files/15055849/Entrevista.docx)
+
+[Empatia 01 - Coleta - Entrevista Qualitativa 1.docx](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2024-1-1-ti-aw-t1-aicheck/files/15055852/Empatia.01.-.Coleta.-.Entrevista.Qualitativa.1.docx)

@@ -42,7 +42,29 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Código
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "./css/style.css"
+    <title>IACheck</title>
+</head>
+<body>
+    <div class="wrapper"
+    <header>
+        <div id="cabeçalho"></div>
+        <h1>
+            IACheck
+        </h1>
+        <ul id="menuSuperior">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Quem Somos</a></li>
+            <li><a href="#">Contatos</a></li>
+        </ul>
+    </header>
+</body>
+</html>
 
 # Apresentação
 

@@ -15,7 +15,11 @@ Visão geral:
 
 Camila tem 25 anos, é psicóloga e influencer. É sociável, intensa, gosta de rock, sair de casa e tem muitos amigos. Tem o sonho de casar, ser mãe, crescer ainda mais nas redes sociais e escrever um livro. Ela quer proteger sua imagem pública e sua reputação online. Como uma figura pública de sucesso nas redes sociais, ela precisa garantir que sua identidade não seja usada indevidamente por golpistas ou para disseminação de fake news e desinformação. É necessário tratá-la com respeito, transparência e confiança. Ela valoriza a sinceridade e a autenticidade, então é essencial manter uma comunicação clara e direta com ela. Além disso, demonstrar interesse genuíno em suas preocupações e oferecer soluções que atendam às suas necessidades específicas são formas eficazes de deixá-la feliz.
 
+[Empatia 05 - Análise - Persona-1.1.docx](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2024-1-1-ti-aw-t1-aicheck/files/15055725/Empatia.05.-.Analise.-.Persona-1.1.docx)
+
 Maria tem 57 anos, é aposentada e gosta de ler, cozinhar e de jardinagem. É gentil, cautelosa, tradicional, dedicada à família. Tem o sonho de viajar pelo mundo, passar mais tempo com os netos, aprender a utilizar a tecnologia de forma segura. Ela quer proteção de sua segurança online e à prevenção de fraudes. Como alguém que não está familiarizada com o mundo digital e teme cair em golpes, ela busca uma solução que a ajude a navegar na internet com mais confiança e segurança, protegendo-a contra possíveis ameaças cibernéticas. É importante tratá-la com paciência, empatia e clareza. Ela pode se sentir insegura ou sobrecarregada com a tecnologia, então é essencial fornecer instruções simples e passo a passo para ajudá-la a entender e utilizar o serviço. Além disso, é importante transmitir confiança e tranquilidade, demonstrando que estamos aqui para ajudá-la a se proteger online.
+
+[Empatia 05 - Análise - Persona-2.docx](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2024-1-1-ti-aw-t1-aicheck/files/15055754/Empatia.05.-.Analise.-.Persona-2.docx)
 
 ## Histórias de Usuários
 
@@ -24,6 +28,8 @@ Camila contacta a empresa explica suas preocupações e necessidades. Camila enf
 Camila estava viajando de carro quando ficou sabendo de um vídeo falso a envolvendo em que seus seguidores estão achando que é real, a viagem é longa e ela teme a repercussão enquanto não poder tomar providências
 
 Maria está querendo aproveitar seu tempo de aposentada para utilizar mais da internet, ao mesmo tempo ela teme ser vitima de criminosos virtuais, ela pesquisa por serviços que podem auxilia-la
+
+Maria baixou o aplicativo, mas ainda possui várias dúvidas de como usá-lo 
 
 |EU COMO... `Camila` | QUERO/PRECISO ... `FUNCIONALIDADE`       |PARA ... `MOTIVO/VALOR`                                                           |
 |--------------------|------------------------------------------|----------------------------------------------------------------------------------|

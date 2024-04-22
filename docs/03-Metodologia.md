@@ -51,8 +51,6 @@ Retrospectiva da Sprint: Após a revisão da Sprint, o grupo realiza uma retrosp
 
 As ferramentas empregadas no projeto são:
 
-As ferramentas empregadas no projeto são:
-
 - Github
 - Visual Code
 - Figma

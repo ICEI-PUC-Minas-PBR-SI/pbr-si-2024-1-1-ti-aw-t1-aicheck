@@ -4,6 +4,7 @@ Faça uma apresentação de um resumo de todos o processo de desenvolvimento e n
 
 Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e descrição do conteúdo neste arquivo Readme.md.
 
+[Uploading Apresentação1_TI.pptx…]()
 
 * [Pitch inicial](./sample-pitch.pdf) -- arquivo com os slides da apresentação inicial
 * [Apresentação final](./sample-presentation.pdf) -- arquivo com os slides da apresentação final

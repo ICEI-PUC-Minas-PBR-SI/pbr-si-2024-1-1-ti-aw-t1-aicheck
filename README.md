@@ -6,7 +6,7 @@
 
 `SEMESTRE: 1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Planejamos desenvolver um programa de detecção de conteúdo gerado por inteligência artificial (IA) em imagens, vídeos e áudios. Esse programa utilizará um banco de dados de dados previamente coletados para treinar algoritmos de aprendizado de máquina, permitindo identificar padrões que caracterizam conteúdo gerado por IA. O processo de detecção envolverá a extração de características das mídias, como traços de edição, estilo de renderização e padrões de áudio, e a comparação com padrões conhecidos de conteúdo gerado por IA. O objetivo é fornecer aos usuários uma ferramenta confiável para verificar a autenticidade de mídias, contribuindo para a prevenção de disseminação de desinformação e fake news.
 
 ## Integrantes
 

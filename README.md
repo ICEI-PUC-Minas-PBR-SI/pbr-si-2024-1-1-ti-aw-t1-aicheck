@@ -46,4 +46,4 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Apresentação
 
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>
+O processo de detecção envolverá a extração de características das mídias, como traços de edição, estilo de renderização e padrões de áudio, e a comparação com padrões conhecidos de conteúdo gerado por IA. O objetivo é fornecer aos usuários uma ferramenta confiável para verificar a autenticidade de mídias, contribuindo para a prevenção de disseminação de desinformação e fake news.

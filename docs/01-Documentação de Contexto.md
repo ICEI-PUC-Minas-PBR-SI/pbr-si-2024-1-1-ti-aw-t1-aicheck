@@ -21,6 +21,8 @@ Aperfeiçoar constantemente nossas soluções: Comprometemo-nos a realizar pesqu
 Educar e conscientizar o público: Buscamos educar o público sobre os riscos associados à disseminação de conteúdo falsificado e fornecer recursos para ajudar os usuários a identificar e evitar a propagação de informações enganosas.
 Colaborar com parceiros e instituições: Planejamos estabelecer parcerias estratégicas com instituições de pesquisa, organizações governamentais e empresas de mídia para fortalecer nossos esforços na luta contra a desinformação.
 
+[Entendimento 01 - Matriz de Alinhamento-1.docx](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2024-1-1-ti-aw-t1-aicheck/files/15055779/Entendimento.01.-.Matriz.de.Alinhamento-1.docx)
+
 ## Justificativa
 
 Como o número de falsificação de imagens, videos e audios está se tornando um problema cada vez maior, a detecção de imagens e vídeos gerados por inteligência artificial é crucial para combater a disseminação de conteúdo falso na era digital. Nosso objetivo é criar soluções abrangentes e eficazes para enfrentar esse desafio, motivados pela importância de proteger a integridade da informação e promover a confiança pública. Escolhemos objetivos específicos para desenvolver algoritmos avançados de detecção, implementar uma plataforma acessível, aperfeiçoar constantemente nossas soluções, educar o público, colaborar com parceiros e promover a ética no uso de IA. Essas ações visam fornecer ferramentas e conhecimentos necessários para identificar e combater conteúdo falso, promovendo transparência e segurança na era digital.

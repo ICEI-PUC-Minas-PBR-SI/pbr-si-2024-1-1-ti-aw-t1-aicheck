@@ -4,22 +4,22 @@
 
 Visão geral:
 
-> - 1)Algoritmos de Detecção Avançados: Descreveremos os algoritmos de detecção utilizados em nosso projeto, incluindo técnicas de aprendizado de máquina, processamento de imagem e análise de vídeo.
-> - 2)Processamento de Imagem e Vídeo: Exploraremos as técnicas de processamento de imagem e vídeo empregadas para identificar padrões e características distintivas associadas a conteúdo gerado por inteligência artificial.
-> - 3)Redes Neurais Convolucionais (CNNs): Abordaremos o uso de redes neurais convolucionais para análise e classificação de imagens, destacando sua eficácia na detecção de padrões complexos em conjuntos de dados visuais.
-> - 4)Técnicas de Análise de Áudio: Discutiremos as técnicas de análise de áudio empregadas para detecção de conteúdo falso em arquivos de áudio, incluindo análise espectral e modelagem de linguagem.
-> - 5)Ferramentas de Aprendizado de Máquina: Apresentaremos as ferramentas e bibliotecas de aprendizado de máquina utilizadas em nosso projeto, como TensorFlow, PyTorch e scikit-learn, e como elas foram aplicadas na implementação dos algoritmos de detecção.
-> - 6)Bancos de Dados e Conjuntos de Dados: Descreveremos os bancos de dados e conjuntos de dados utilizados para treinar e testar nossos modelos de detecção, destacando sua importância na obtenção de resultados precisos e confiáveis.
+> - 1)Algoritmos de Recomendação: Usamos algoritmos de recomendação baseados em aprendizado de máquina para sugerir eventos aos usuários com base em seus interesses, históricos de navegação e preferências anteriores. A filtragem colaborativa, a filtragem baseada em conteúdo e os sistemas de recomendação híbridos podem fazer parte disso. 
+> - 2)Processamento de Texto: Analisamos descrições de eventos usando técnicas de processamento de texto para encontrar palavras-chave e extrair informações pertinentes, como localização, data, hora e tipo de evento. Além de ajudar na classificação e categorização dos eventos, isso aumenta a precisão das recomendações.
+> - 3)Algoritmos de Busca: Criamos algoritmos de busca eficientes para que os usuários encontrem facilmente eventos específicos. Isso permite incluir métodos de busca binária, em largura e em profundidade, combinados com algoritmos de indexação e classificação com base na relevância. 
+> - 4)Análise de Dados Geoespaciais: Fornecemos aos usuários informações sobre eventos próximos à sua localização atual por meio da utilização da análise de dados geoespaciais. Isso requer o uso de algoritmos de geolocalização e análise de proximidade para identificar eventos pertinentes em uma área geográfica específica. 
+> - 5)Algoritmos de Detecção de Anomalias: Usamos algoritmos de detecção de anomalias para encontrar e reduzir atividades fraudulentas ou suspeitas relacionadas à compra de ingressos ou inscrição em eventos. Detecção de padrões de comportamento incomuns, detecção de robôs e análise de transações suspeitas são exemplos de métodos que podem fazer parte disso.
+
 
 ## Personas
-
+"
 Camila tem 25 anos, é psicóloga e influencer. É sociável, intensa, gosta de rock, sair de casa e tem muitos amigos. Tem o sonho de casar, ser mãe, crescer ainda mais nas redes sociais e escrever um livro. Ela quer proteger sua imagem pública e sua reputação online. Como uma figura pública de sucesso nas redes sociais, ela precisa garantir que sua identidade não seja usada indevidamente por golpistas ou para disseminação de fake news e desinformação. É necessário tratá-la com respeito, transparência e confiança. Ela valoriza a sinceridade e a autenticidade, então é essencial manter uma comunicação clara e direta com ela. Além disso, demonstrar interesse genuíno em suas preocupações e oferecer soluções que atendam às suas necessidades específicas são formas eficazes de deixá-la feliz.
 
 [Empatia 05 - Análise - Persona-1.1.docx](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2024-1-1-ti-aw-t1-aicheck/files/15055725/Empatia.05.-.Analise.-.Persona-1.1.docx)
 
 Maria tem 57 anos, é aposentada e gosta de ler, cozinhar e de jardinagem. É gentil, cautelosa, tradicional, dedicada à família. Tem o sonho de viajar pelo mundo, passar mais tempo com os netos, aprender a utilizar a tecnologia de forma segura. Ela quer proteção de sua segurança online e à prevenção de fraudes. Como alguém que não está familiarizada com o mundo digital e teme cair em golpes, ela busca uma solução que a ajude a navegar na internet com mais confiança e segurança, protegendo-a contra possíveis ameaças cibernéticas. É importante tratá-la com paciência, empatia e clareza. Ela pode se sentir insegura ou sobrecarregada com a tecnologia, então é essencial fornecer instruções simples e passo a passo para ajudá-la a entender e utilizar o serviço. Além disso, é importante transmitir confiança e tranquilidade, demonstrando que estamos aqui para ajudá-la a se proteger online.
 
-[Empatia 05 - Análise - Persona-2.docx](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2024-1-1-ti-aw-t1-aicheck/files/15055754/Empatia.05.-.Analise.-.Persona-2.docx)
+[Empatia 05 - Análise - Persona-2.docx](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2024-1-1-ti-aw-t1-aicheck/files/15055754/Empatia.05.-.Analise.-.Persona-2.docx)"
 
 ## Histórias de Usuários
 

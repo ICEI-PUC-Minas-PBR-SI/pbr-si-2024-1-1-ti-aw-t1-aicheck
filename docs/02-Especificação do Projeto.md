@@ -12,7 +12,7 @@ Visão geral:
 
 
 ## Personas
-"
+
 Adriana Lima, uma Química Industrial de 36 anos, é uma pessoa extrovertida, confiante, empática e autêntica. Ela aprecia socializar com amigos, mergulhar em livros e participar de eventos relacionados à sua área de atuação. Seu maior desejo é construir uma carreira de sucesso. Para alcançar esse objetivo, ela busca ampliar seu networking por meio da participação em eventos relevantes. Para atender às suas preferências, é crucial identificar e frequentar os eventos adequados. Adriana valoriza a sinceridade e a transparência na comunicação. Portanto, é essencial manter uma comunicação clara e direta com ela. Além disso, demonstrar um interesse genuíno por suas preocupações e oferecer soluções que atendam às suas necessidades específicas são maneiras eficazes de deixá-la satisfeita.
 
 [Empatia 05 - Análise - Persona-1.1.docx](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2024-1-1-ti-aw-t1-aicheck/files/15055725/Empatia.05.-.Analise.-.Persona-1.1.docx)

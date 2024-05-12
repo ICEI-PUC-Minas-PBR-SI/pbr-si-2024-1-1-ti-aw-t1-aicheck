@@ -3,9 +3,11 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Uso de IAs por áudio = uma palavra-chave é gravada no aplicativo como método de detecção. Isso nos permite identificar padrões sonoros característicos associados a conteúdo falsificado
-Uso de IAs por imagem = O software especializado é empregado para detectar pequenas variações nas imagens, permitindo-nos identificar alterações sutis que podem indicar manipulação
-Uso de IAs por vídeo = Um software dedicado é empregado para identificar variações nas sequências de vídeo, auxiliando na detecção de conteúdo falsificado, como deepfakes e edições maliciosas
+Curadoria de Eventos: Selecionamos cuidadosamente os eventos listados do nosso site para atender às necessidades da nossa audiência. Assim, os usuários recebem apenas eventos relevantes e de alta qualidade. 
+Classificação e Categorização de Eventos: Classificamos e categorizamos os eventos com base em fatores como tipo de evento, localização, data e preço. Isso facilita a busca e a navegação dos usuários, permitindo-lhes encontrar rapidamente eventos que atendem às suas preferências e necessidades.
+
+ Feedback dos Usuários: Coletamos regularmente comentários dos usuários para entender suas experiências com o site e descobrir áreas de melhoria. Isso nos ajuda a ajustar e otimizar a plataforma continuamente para atender às necessidades e expectativas dos usuários.
+
 
 ## Controle de Versão
 

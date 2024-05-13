@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href = "./css/style.css"
+    <link href = "./css/style.css" rel = "stylesheet">
     <title>IACheck</title>
 </head>
 <body>
@@ -19,5 +19,32 @@
             <li><a href="#">Contatos</a></li>
         </ul>
     </header>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="screen">
+      <h2>Login</h2>
+      <form id="loginForm" action="pagina_eventos.html" method="GET">
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" name="email" placeholder="Digite seu e-mail" required>
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+        <input type="submit" value="Entrar">
+      </form>
+      <div class="signup-link">
+        <a href="cadastro.html">Não tem cadastro? Clique aqui para se cadastrar</a>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>

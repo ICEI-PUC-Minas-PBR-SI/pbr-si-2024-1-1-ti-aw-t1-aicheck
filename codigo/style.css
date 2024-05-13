@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .phone {
+    background-color: #000;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    width: 360px; /* Aumentando a largura */
+    height: 600px; /* Aumentando a altura */
+    overflow: hidden;
+    position: relative;
+  }
+  .screen {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 330px; /* Ajustando a largura do conteúdo da tela */
+    height: 540px; /* Ajustando a altura do conteúdo da tela */
+    position: absolute;
+    top: 30px; /* Ajustando a posição do conteúdo da tela */
+    left: 15px; /* Ajustando a posição do conteúdo da tela */
+    padding: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out; /* Adicionando animação de transição */
+  }
+  
+  .screen:hover {
+    transform: scale(1.05); /* Aumentando o tamanho ao passar o mouse */
+  }
+  
+  .event {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .event h3 {
+    margin: 0;
+  }
+  
+  .event p {
+    margin: 5px 0;
+  }
+  
+  .event a {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .signup-link {
+    text-align: center;
+    margin-top: 10px;
+  }

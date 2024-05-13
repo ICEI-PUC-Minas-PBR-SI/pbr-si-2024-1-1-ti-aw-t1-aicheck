@@ -55,7 +55,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
     <header>
         <div id="cabeçalho"></div>
         <h1>
-            IACheck
+            PertoDeMim
         </h1>
         <ul id="menuSuperior">
             <li><a href="#">Home</a></li>

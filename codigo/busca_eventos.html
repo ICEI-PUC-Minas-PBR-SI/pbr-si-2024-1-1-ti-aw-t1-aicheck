@@ -4,16 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Busca de Eventos</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="phone">
     <div class="screen">
-      <form action="pesquisa_eventos.html" method="POST" class="search-form">
+      <form action="busca_eventos.html" method="POST" class="search-form">
         <input type="text" id="endereco" name="endereco" placeholder="Digite o endereço desejado...">
         <input type="submit" value="Buscar">
       </form>
     </div>
   </div>
+  <script>
+    document.getElementById("searchForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+      const endereco = document.getElementById("endereco").value.toLowerCase();
+      const capitaisBrasil = ["rio de janeiro", "são paulo", "brasília", "salvador", "fortaleza", "belo horizonte", "manaus", "curitiba", "recife", "porto alegre", "belém", "goiânia", "campo grande", "teresina", "são luís", "natal", "joão pessoa", "aracaju", "maceió", "vitória", "porto velho", "boas vista", "palmas", "rio branco"];
+      if (capitaisBrasil.includes(endereco)) {
+        window.location.href = "resultados_eventos.html"; // Correção feita aqui
+      } else {
+        alert("Endereço não reconhecido como uma capital do Brasil.");
+      }
+    });
+  </script>
 </body>
 </html>

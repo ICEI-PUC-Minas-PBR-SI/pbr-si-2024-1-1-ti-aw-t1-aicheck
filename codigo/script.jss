@@ -7,10 +7,17 @@ document.addEventListener("DOMContentLoaded", function() {
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
 
-    // Validação básica do email e senha
-    if (email === "user@example.com" && password === "123456") {
+  // Validação do email
+    var emailRegex = /@gmail\.com$|@hotmail\.com$|@yahoo\.com$|@outlook\.com$/;
+    var isEmailValid = emailRegex.test(email);
+
+    // Validação da senha
+    var isPasswordValid = password.length > 5;
+
+    // Verifica se o email e a senha são válidos
+    if (isEmailValid && isPasswordValid) {
       // Se as credenciais estiverem corretas, redirecione para outra página
-      window.location.href = "index.html";
+      window.location.href = "pagina_eventos.html";
     } else {
       // Caso contrário, exiba uma mensagem de erro
       alert("Credenciais inválidas. Por favor, tente novamente.");

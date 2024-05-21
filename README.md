@@ -6,7 +6,7 @@
 
 `SEMESTRE: 1`
 
-Planejamos desenvolver um programa de detecção de conteúdo gerado por inteligência artificial (IA) em imagens, vídeos e áudios. Esse programa utilizará um banco de dados de dados previamente coletados para treinar algoritmos de aprendizado de máquina, permitindo identificar padrões que caracterizam conteúdo gerado por IA. O processo de detecção envolverá a extração de características das mídias, como traços de edição, estilo de renderização e padrões de áudio, e a comparação com padrões conhecidos de conteúdo gerado por IA. O objetivo é fornecer aos usuários uma ferramenta confiável para verificar a autenticidade de mídias, contribuindo para a prevenção de disseminação de desinformação e fake news.
+Durante os anos recentes, há um aumento notável do mercado de eventos, as entusiastas de todas as idades e interesses têm acesso à maior variedade de atividades. Este aumento na diversidade de eventos trouxe consigo uma série de desafios, que vão desde encontrar informações pertinentes até gerir de forma eficiente o tempo e os recursos disponíveis.Nossa plataforma é abrangente e acessível que facilita a descoberta, a exploração e a participação em eventos de todos os tipos é necessária diante desse cenário. O nosso objetivo é proporcionar exatamente isso: um espaço online onde os utilizadores possam encontrar uma vasta gama de eventos, desde concertos e festivais a seminários e conferências, tudo num só local.
 
 ## Integrantes
 
@@ -48,7 +48,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href = "./css/style.css"
-    <title>IACheck</title>
+    <title>PertoDeMim</title>
 </head>
 <body>
     <div class="wrapper"

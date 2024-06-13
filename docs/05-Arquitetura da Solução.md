@@ -1,8 +1,12 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
+Componentes de Software
+Front-end: Interface do usuário onde os visitantes do site podem ver eventos, se cadastrar, comprar ingressos. HTML e CSS
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+Back-end/API: Servidor que lida com a lógica de negócios, manipulação de dados, e comunicação com o banco de dados. Pode ser desenvolvido com Javascript.
+
+Banco de Dados: Armazena informações sobre eventos, usuários, transações, etc. Pode ser um banco de dados relacional como JSON.
+Serviço de Autenticação: Gerencia o registro e login dos usuários, JSON.
 
 ## Diagrama de componentes
 
@@ -60,10 +64,35 @@ para a Tela 2.
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+Tecnologias: HTML, CSS, JavaScript, Funcionalidades: Pesquisa de eventos, exibição de detalhes do evento, cadastro de usuários, compra de ingressos.
+API:
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+Tecnologias: Javascript 
+Funcionalidades: CRUD de eventos, gerenciamento de usuários, integração com sistemas de pagamento.
+Banco de Dados:
 
+Tecnologias: JSON.
+Tabelas/Collections: Eventos, Usuários, Transações, Notificações.
+
+Sistema de Notificações:
+Tecnologias: Twilio (SMS), SendGrid (Email).
+Funcionalidades: Envio de confirmações de inscrição, lembretes de eventos.
+
+Front-end
+HTML5, CSS3, JavaScript: Tecnologias básicas para a estrutura, estilo e interatividade da interface do usuário.
+React: Biblioteca JavaScript para a construção da interface do usuário de maneira eficiente e reutilizável.
+Json: Biblioteca para gerenciamento de estado da aplicação.
+
+Back-end
+ JavaScript para construir a API do servidor.
+Node.js que facilita a criação de rotas e a gestão de middleware.
+ Banco de dados NoSQL para armazenar informações sobre eventos, usuários, e transações.
+
+ Ferramentas de Desenvolvimento
+Visual Studio Code: IDE para desenvolvimento de código.
+Git: Sistema de controle de versão para gestão do código-fonte.
+GitHub: Plataforma para hospedagem de repositórios Git.
+Figma: ferramenta para criar esboços do site.
 
 ## Hospedagem
 

@@ -1,10 +1,40 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+Requisitos Funcionais:
+    1. Tela de Cadastro de Usuário:
+        ◦ Campos para inserir endereço de e-mail, senha, confirmação de senha e data de nascimento.
+        ◦ Botão para confirmar o cadastro.
+    2. Tela Cadastro de Usuário Secundária:
+        ◦ Campo para inserir foto de perfil.
+        ◦ Campo para inserir nome completo.
+        ◦ Botão para confirmar o cadastro.
+    3. Tela Principal:
+        ◦ Cabeçalho com botões de perfil, busca e criação de eventos.
+        ◦ Barra de navegação com eventos e botão "mais".
+    4. Tela Evento:
+        ◦ Cabeçalho com nome do evento.
+        ◦ Barra de navegação com informações detalhadas sobre o evento e botão "Inscrever-se".
+    5. Tela Novo Evento:
+        ◦ Cabeçalho com título "Novo Evento".
+        ◦ Barra de navegação com campos para criar um novo evento.
+    6. Tela de Pagamento:
+        ◦ Cabeçalho com título "Forma de Pagamento".
+        ◦ Barra de navegação com opções de pagamento.
+Requisitos Não Funcionais:
+    1. Responsividade: O site deve ser responsivo para garantir uma boa experiência de usuário em diferentes dispositivos.
+    2. Segurança: As informações dos usuários devem ser protegidas através de medidas de segurança adequadas.
+Artefatos que devem ser criados:
+    1. Arquivos HTML para cada tela do sistema.
+    2. Arquivo CSS para estilização das telas.
+    3. Estruturas de dados para armazenar informações dos usuários e eventos (por exemplo, um banco de dados MySQL).
+Instruções para Acesso e Verificação da Implementação:
+    1. Os arquivos HTML e CSS devem ser hospedados em um servidor web.
+    2. A estrutura de dados deve ser configurada e acessível para armazenar informações de usuários e eventos.
+    3. Os formulários nos arquivos HTML devem ser configurados para enviar os dados para o servidor web.
+    4. Os dados enviados pelos formulários devem ser processados no servidor e armazenados no banco de dados.
+    5. As telas devem ser acessíveis através de URLs específicas (por exemplo, "http://seusite.com/tela-cadastro-usuario").
+    6. Verifique se todas as funcionalidades estão funcionando corretamente, incluindo o cadastro de usuário, criação de evento e processo de pagamento.
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
-
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 > **Links Úteis**:
 >

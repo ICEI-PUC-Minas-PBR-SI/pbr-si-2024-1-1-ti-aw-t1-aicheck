@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagamento com Cartão</title>
+  <link rel="stylesheet" href="stylepagamento.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="screen">
+      <a href="formas_de_pagamento.html" class="back-button">&#8592;</a>
+      <h2><br /></h2>
+      <form id="cardPaymentForm" class="payment-form">
+        <input type="text" id="cardName" name="cardName" placeholder="Nome no Cartão" required>
+        <input type="text" id="cardNumber" name="cardNumber" placeholder="Número do Cartão" required>
+        <input type="text" id="cardExpiry" name="cardExpiry" placeholder="Validade (MM/AA)" required>
+        <input type="text" id="cardCVC" name="cardCVC" placeholder="Código CVC" required>
+        <input type="submit" value="Confirmar Pagamento">
+      </form>
+
+      <div class="android-buttons">
+        <div class="button"></div>
+        <div class="button"></div>
+        <div class="button"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("cardPaymentForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+      alert("Pagamento com cartão confirmado!");
+      // Redirecionar ou processar o pagamento aqui
+    });
+  </script>
+</body>
+</html>

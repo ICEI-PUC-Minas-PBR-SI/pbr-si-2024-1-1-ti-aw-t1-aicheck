@@ -4,112 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formas de Pagamento</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    
-    .phone {
-      background-color: #000;
-      border-radius: 30px;
-      box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-      width: 360px;
-      height: 600px;
-      overflow: hidden;
-      position: relative;
-    }
-    
-    .screen {
-      background-color: #f5f5f5; 
-      border-radius: 15px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-      width: 330px;
-      height: 540px;
-      position: absolute;
-      top: 30px;
-      left: 15px;
-      padding: 20px;
-      box-sizing: border-box;
-      transition: transform 0.3s ease-in-out;
-    }
-    
-    .screen:hover {
-      transform: scale(1.05);
-    }
-    
-    .payment-form {
-      display: flex;
-      flex-direction: column;
-      max-width: 100%;
-      margin: auto;
-      padding: 20px;
-      border: 1px solid #ccc;
-      border-radius: 10px;
-      background-color: #f9f9f9;
-    }
-    
-    .payment-form input[type="text"],
-    .payment-form input[type="number"] {
-      padding: 10px;
-      margin-bottom: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-    
-    .payment-form input[type="submit"] {
-      padding: 10px;
-      background-color: #28a745;
-      color: #fff;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    
-    .payment-form input[type="submit"]:hover {
-      background-color: #218838;
-    }
-    
-    .payment-options {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 20px;
-    }
-    
-    .payment-options label {
-      flex: 1;
-      text-align: center;
-    }
-    
-    .payment-options input[type="radio"] {
-      display: none;
-    }
-    
-    .payment-options input[type="radio"] + label {
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-    
-    .payment-options input[type="radio"]:checked + label {
-      background-color: #007bff;
-      color: #fff;
-    }
-  </style>
+  <link rel="stylesheet" href="stylepagamento.css">
 </head>
 <body>
   <div class="phone">
     <div class="screen">
-      <h2>Formas de Pagamento</h2>
+      <a href="criar_evento.html" class="back-button">&#8592;</a>
+      <h2><br /></h2>
       <form id="paymentForm" class="payment-form">
         <div class="payment-options">
           <input type="radio" id="debito" name="paymentMethod" value="debito" required>
@@ -122,19 +23,18 @@
           <label for="pix">PIX</label>
         </div>
 
-        <div id="cardDetails" style="display: none;">
-          <input type="text" id="cardName" name="cardName" placeholder="Nome no Cartão">
-          <input type="text" id="cardNumber" name="cardNumber" placeholder="Número do Cartão">
-          <input type="number" id="cardExpiry" name="cardExpiry" placeholder="Validade (MM/AA)">
-          <input type="number" id="cardCVC" name="cardCVC" placeholder="Código CVC">
-        </div>
-
         <div id="pixDetails" style="display: none;">
           <p>Chave PIX: exemplo@pix.com</p>
         </div>
 
         <input type="submit" value="Confirmar Pagamento">
       </form>
+
+      <div class="android-buttons">
+        <div class="button"></div>
+        <div class="button"></div>
+        <div class="button"></div>
+      </div>
     </div>
   </div>
 
@@ -152,6 +52,17 @@
         pixDetails.style.display = "block";
       }
     });
+
+    document.getElementById("paymentForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+      const paymentMethod = document.querySelector('input[name="paymentMethod"]:checked').value;
+      if (paymentMethod === "debito" || paymentMethod === "credito") {
+        window.location.href = "pagamento_cartao.html";
+      } else if (paymentMethod === "pix") {
+        window.location.href = "pix_pagar.html";
+      }
+    });
   </script>
 </body>
 </html>
+

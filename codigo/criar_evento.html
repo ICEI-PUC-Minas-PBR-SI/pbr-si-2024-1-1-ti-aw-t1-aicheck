@@ -3,32 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Busca de Eventos</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Criar Evento</title>
+  <link rel="stylesheet" href="stylecriarevento.css">
 </head>
 <body>
   <div class="phone">
     <div class="screen">
       <a href="detalhes_evento.html" class="back-button">&#8592;</a>
       <div class="form-container">
-      <form id="searchForm" class="search-form">
-        <h1><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></h1>
-        <input type="text" id="endereco" name="endereco" placeholder="Digite o endereço desejado...">
-        <input type="submit" value="Buscar">
-      </form>
+        <h1><br /></h1>
+        <label for="nomeEvento">Nome do evento:</label>
+        <input type="text" id="nomeEvento" name="nomeEvento" placeholder="Digite o nome do evento">
+        
+        <label for="localEvento">Local:</label>
+        <input type="text" id="localEvento" name="localEvento" placeholder="Digite o local do evento">
+        
+        <label for="dataEvento">Data:</label>
+        <input type="date" id="dataEvento" name="dataEvento">
+        
+        <button type="submit">Criar Evento</button>
+      </div>
+      <div class="android-buttons">
+        <div class="button"></div>
+        <div class="button"></div>
+        <div class="button"></div>
+      </div>
     </div>
   </div>
-  <script>
-    document.getElementById("searchForm").addEventListener("submit", function(event) {
-      event.preventDefault();
-      const endereco = document.getElementById("endereco").value.toLowerCase();
-      const capitaisBrasil = ["rio de janeiro", "são paulo", "brasília", "salvador", "fortaleza", "belo horizonte", "manaus", "curitiba", "recife", "porto alegre", "belém", "goiânia", "campo grande", "teresina", "são luís", "natal", "joão pessoa", "aracaju", "maceió", "vitória", "porto velho", "boas vista", "palmas", "rio branco"];
-      
-      if (capitaisBrasil.includes(endereco)) {
-        window.location.href = `${endereco.replace(/ /g, '_')}.html`;
-      } else {
-        alert("Endereço não reconhecido como uma capital do Brasil.");
-      }
-    });
-  </script>
 </body>
+</html>

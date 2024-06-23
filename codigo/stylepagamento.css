@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.phone {
+    background-color: #000;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    width: 360px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.screen {
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 330px;
+    height: 540px;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.payment-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.payment-options input[type="radio"] {
+    display: none;
+}
+
+.payment-options label {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.payment-options input[type="radio"]:checked + label {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.payment-form input[type="text"],
+.payment-form input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.payment-form input[type="submit"] {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.payment-form input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.create-event {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.create-event a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.create-event a:hover {
+    background-color: #0056b3;
+}
+
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}

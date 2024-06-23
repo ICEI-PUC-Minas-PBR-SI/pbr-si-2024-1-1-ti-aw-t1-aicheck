@@ -33,10 +33,6 @@ body {
     transition: transform 0.3s ease-in-out; /* Adicionando animação de transição */
   }
   
-  .screen:hover {
-    transform: scale(1.05); /* Aumentando o tamanho ao passar o mouse */
-  }
-  
   input[type="text"],
   input[type="password"] {
     width: 100%;
@@ -70,3 +66,22 @@ body {
     color: #007bff;
     text-decoration: none;
   }
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+

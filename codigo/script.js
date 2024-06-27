@@ -12,7 +12,8 @@ document.addEventListener("DOMContentLoaded", function() {
     var isEmailValid = emailRegex.test(email);
 
     // Validação da senha
-    var isPasswordValid = password.length > 5;
+    var passwordRegex = /^(?=.*[A-Z]).{6,}$/;
+    var isPasswordValid = passwordRegex.test(password);
 
     // Verifica se o email e a senha são válidos
     if (isEmailValid && isPasswordValid) {
@@ -20,7 +21,8 @@ document.addEventListener("DOMContentLoaded", function() {
       window.location.href = "pagina_eventos.html";
     } else {
       // Caso contrário, exiba uma mensagem de erro
-      alert("Credenciais inválidas. Por favor, tente novamente.");
+      alert("Senha deve ter mais de 6 caracteres e com caractere maiúscula");
     }
   });
 });
+

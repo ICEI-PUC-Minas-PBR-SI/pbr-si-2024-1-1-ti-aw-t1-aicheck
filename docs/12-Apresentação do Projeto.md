@@ -6,7 +6,7 @@ Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do proje
 
 ## Título do Projeto
 
-IACheck
+PertoDeMim
 
 ## Identidade Visual (Marca, Design)
 

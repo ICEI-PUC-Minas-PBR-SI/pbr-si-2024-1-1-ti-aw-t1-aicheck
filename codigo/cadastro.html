@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criar Cadastro</title>
+  <link rel="stylesheet" href="styleteste.css">
+</head>
+<body>
+  <div class="phone">
+    <img src="..\docs/img/celular.jpg" width=370 height=640>
+    <div class="screen">
+      <a href="index.html" class="back-button">&#8592;</a>
+      <div class="form-container">
+        <h1>Cadastro</h1>
+        <div id="message" class="message"></div> 
+        <form id="signupForm">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+          <label for="password">Senha:</label>
+          <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+
+          <label for="confirmPassword">Confirmar Senha:</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirme sua senha" required>
+
+          <button type="submit" class="create-event-button">Cadastrar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="scriptcadastro.js"></script>
+</body>
+</html>

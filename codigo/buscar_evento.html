@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscar Eventos por CEP</title>
+  <link rel="stylesheet" href="styleteste.css">
+</head>
+<body>
+  <div class="phone">
+  <img src="..\docs\img\celular.jpg"  width=370 height=640>
+    <div class="screen">
+      <a href="detalhes_evento.html" class="back-button">&#8592;</a>
+      <div class="form-container">
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <form id="cepForm" class="cep-form">
+        <input type="text" id="cep" name="cep" placeholder="Digite o CEP...">
+        <input type="submit" value="Buscar">
+      </form>
+      <div id="eventos"></div>
+      <div id="mensagem"></div>
+      <div id="eventos"></div>
+    </div>
+  </div>
+  <script src="testesricptapi.js"></script>
+</body>
+</html>

@@ -4,10 +4,13 @@ document.addEventListener("DOMContentLoaded", function() {
   form.addEventListener("submit", function(event) {
     event.preventDefault(); // Evita o envio do formulário padrão
 
-    var email = document.getElementById("email").value;
-    var password = document.getElementById("password").value;
+    var emailInput = document.getElementById("email");
+    var passwordInput = document.getElementById("password");
 
-  // Validação do email
+    var email = emailInput.value;
+    var password = passwordInput.value;
+
+    // Validação do email
     var emailRegex = /@gmail\.com$|@hotmail\.com$|@yahoo\.com$|@outlook\.com$/;
     var isEmailValid = emailRegex.test(email);
 
@@ -15,14 +18,19 @@ document.addEventListener("DOMContentLoaded", function() {
     var passwordRegex = /^(?=.*[A-Z]).{6,}$/;
     var isPasswordValid = passwordRegex.test(password);
 
-    // Verifica se o email e a senha são válidos
-    if (isEmailValid && isPasswordValid) {
+    // Resetar mensagens de erro
+    emailInput.setCustomValidity("");
+    passwordInput.setCustomValidity("");
+
+    if (!isEmailValid) {
+      emailInput.setCustomValidity("Por favor, use um email válido que termine em @gmail.com, @hotmail.com, @yahoo.com, ou @outlook.com");
+      emailInput.reportValidity();
+    } else if (!isPasswordValid) {
+      passwordInput.setCustomValidity("A senha deve ter pelo menos 6 caracteres e incluir pelo menos uma letra maiúscula.");
+      passwordInput.reportValidity();
+    } else {
       // Se as credenciais estiverem corretas, redirecione para outra página
       window.location.href = "pagina_eventos.html";
-    } else {
-      // Caso contrário, exiba uma mensagem de erro
-      alert("Senha deve ter mais de 6 caracteres e com caractere maiúscula");
     }
   });
 });
-

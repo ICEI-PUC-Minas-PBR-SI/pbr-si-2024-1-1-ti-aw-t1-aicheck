@@ -1,0 +1,290 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+   .phone {
+    position: relative;
+    width: 370px; 
+    height: 640px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .screen {
+    position: absolute;
+    width: 310px;
+    height: 530px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Design do index */
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .signup-link {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  /* Fim do design do index */
+  /* Detalhes dos eventos */
+
+  .event {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .event h3 {
+    margin: 0;
+  }
+  
+  .event a {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  /* Fim dos detalhes dos eventos */
+  /* Sobre o cep */
+
+  .cep-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .cep-form input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .cep-form input[type="submit"] {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* Fim do uso do cep
+  /* Uso do Pagamento */
+
+  .payment-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.payment-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.payment-options input[type="radio"] {
+    display: none;
+}
+
+.payment-options label {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.payment-options input[type="radio"]:checked + label {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.payment-form input[type="text"],
+.payment-form input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.payment-form input[type="submit"] {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.payment-form input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Fim do uso do pagamento */
+/* Criação de eventos */
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.form-container input, .form-container button {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 100%;
+} 
+
+.form-container button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-event {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.create-event a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.create-event a:hover {
+  background-color: #218838;
+}
+
+/* Fim da criação de eventos */
+/* Botão de voltar a tela */
+
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/*Fim do botão de voltar a tela
+/*Botão para procurar o cep */
+
+.search-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search-icon:hover {
+  background-color: #e0e0e0;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Fim do botão de procurar o cep */
+/* Botão de criar evento */
+
+.add-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.add-button:hover {
+  background-color: #218838;
+}
+
+/*Fim do botão de criar evento */

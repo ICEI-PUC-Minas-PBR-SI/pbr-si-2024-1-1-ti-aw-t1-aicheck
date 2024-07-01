@@ -1,4 +1,5 @@
-# Arquitetura da Solução
+Arquitetura da Solução
+
 
 Componentes de Software
 Front-end: Interface do usuário onde os visitantes do site podem ver eventos, se cadastrar, comprar ingressos. HTML e CSS
@@ -8,61 +9,47 @@ Back-end/API: Servidor que lida com a lógica de negócios, manipulação de dad
 Banco de Dados: Armazena informações sobre eventos, usuários, transações, etc. Pode ser um banco de dados relacional como JSON.
 Serviço de Autenticação: Gerencia o registro e login dos usuários, JSON.
 
-## Diagrama de componentes
+Serviço de Pagamento: Processa pagamentos e gerencia transações, como  PayPal, ou um gateway de pagamento local.
+Sistema de Notificações: Envia notificações por e-mail ou SMS para lembrar os usuários sobre eventos, confirmar inscrições, etc.
 
-Diagrama que permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
-
-Exemplo: 
-
-Os componentes que fazem parte da solução são apresentados na Figura XX.
-
-![Diagrama de Componentes](img/componentes.png)
-<center>Figura XX - Arquitetura da Solução</center>
-
-A solução implementada conta com os seguintes módulos:
-- **Navegador** - Interface básica do sistema  
-  - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
-   - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Canais** - seções de notícias apresentadas 
-     - **Comentários** - registro de opiniões dos usuários sobre as notícias
-     - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
- - **News API** - plataforma que permite o acesso às notícias exibidas no site.
- - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
-
-> **Links Úteis**:
->
-> - [Whimsical](https://whimsical.com/)
-
-Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
-
-A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Assim
-que o usuário entra na plataforma, ele é apresentado à tela inicial
-(Tela 1) onde ele é confrontado com as opões de editar seu perfil ou
-então visualizar sua galeria.
-
-Caso ele opte por seguir pelo primeiro caminho (Editar Perfil), ele é
-redirecionado para a tela de edição de perfil (Tela 2), onde pode
-atualizar seus dados cadastrais. Nessa tela, o usuário também pode
-escolher para editar sua foto de perfil. Ao selecionar essa opção, ele é
-redirecionado para a Tela 3, onde ele a imagem expandida do perfil do
-usuário é mostrado. Ao selecionar a opção para atualizar a imagem, uma
-nova janela abre pedindo para o usuário fazer o upload da nova foto.
-Assim que o processo termina um pop-up exibe o status para o usuário
-(Tela 4) e o usuário é redirecionado para a Tela 2.
-
-Caso o usuário opte seguir pelo segundo caminho (Visualizar Galeria) ele
-é redirecionado para a Tela 5 com todas as fotos que o usuário possui. O
-usuário pode clicar em um post qualquer para visualizar os detalhes do
-post (Tela 6). Nessa tela, ele pode então escolher editar o post, sendo
-redirecionado para a Tela 7. Ao editar as informações, o usuário pode
-escolher salvar ou deletar o post. Em ambos os casos o status é
-notificado para o usuário (Tela 8) e em seguida ele é redirecionado
-para a Tela 2.
-
-![Exemplo de UserFlow](img/userflow.jpg)
-
-
-## Tecnologias Utilizadas
+Ambiente de Hospedagem
+Servidores: Podem ser servidores físicos, VPS, ou serviços em nuvem como AWS, Azure, ou Google Cloud.
+ 
+Load Balancer: Distribui o tráfego entre diferentes servidores para melhorar a performance e a disponibilidade.
+Diagrama de Componentes
+Exemplo de Diagrama de Componentes
++-------------------+
+|                   |
+|    Front-end      | <--------------------------+
+|  (React, Vue.js)  |                             |
+|                   |                             |
++---------+---------+                             |
+          |                                       |
+          v                                       v
++---------+---------+                  +----------+---------+
+|                   |                  |                    |
+|       API         |                  |  Serviço de Autenticação |
+|    (Node.js,      |                  |  (Firebase, Auth0)   |
+|    Django)        |                  |                    |
+|                   |                  +----------+---------+
++---------+---------+                             |
+          |                                       |
+          v                                       v
++---------+---------+                  +----------+---------+
+|                   |                  |                    |
+|   Banco de Dados  |                  |  Serviço de Pagamento |
+| (MySQL, MongoDB)  |                  |  (Stripe, PayPal)  |
+|                   |                  |                    |
++---------+---------+                  +----------+---------+
+          |                                       |
+          v                                       v
++---------+---------+                  +----------+---------+
+|                   |                  |                    |
+| Sistema de Notif. |                  |  CDN               |
+| (Email/SMS)       |                  |  (Cloudflare)      |
+|                   |                  |                    |
++-------------------+                  +--------------------+
+Front-end:
 
 Tecnologias: HTML, CSS, JavaScript, Funcionalidades: Pesquisa de eventos, exibição de detalhes do evento, cadastro de usuários, compra de ingressos.
 API:
@@ -73,6 +60,14 @@ Banco de Dados:
 
 Tecnologias: JSON.
 Tabelas/Collections: Eventos, Usuários, Transações, Notificações.
+
+Serviço de Autenticação:
+Tecnologias: Firebase Authentication, Auth0.
+Funcionalidades: Registro, login, recuperação de senha.
+
+Serviço de Pagamento:
+Tecnologias:  PayPal.
+Funcionalidades: Processamento de pagamentos, emissão de recibos, gestão de transações.
 
 Sistema de Notificações:
 Tecnologias: Twilio (SMS), SendGrid (Email).
@@ -88,11 +83,80 @@ Back-end
 Node.js que facilita a criação de rotas e a gestão de middleware.
  Banco de dados NoSQL para armazenar informações sobre eventos, usuários, e transações.
 
- Ferramentas de Desenvolvimento
+
+Autenticação e Autorização
+Firebase Authentication: Serviço para gerenciar autenticação de usuários com suporte para email/senha, redes sociais, etc.
+Pagamentos
+Stripe: Plataforma para processamento de pagamentos e gestão de transações financeiras.
+
+
+Notificações
+SendGrid: Serviço de envio de emails para notificações e confirmações de inscrição.
+Twilio: Serviço de envio de SMS para lembretes e notificações.
+
+Ferramentas de Desenvolvimento
 Visual Studio Code: IDE para desenvolvimento de código.
 Git: Sistema de controle de versão para gestão do código-fonte.
 GitHub: Plataforma para hospedagem de repositórios Git.
 Figma: ferramenta para criar esboços do site.
+
+Diagrama de Fluxo de Interação do Usuário com o Sistema
+      +---------------------------------------------+
+      |                 Usuário                     |
+      +---------------------+-----------------------+
+                            |
+                            v
+      +---------------------------------------------+
+      |                 Navegador Web               |
+      |           (HTML, CSS, JavaScript)           |
+      +---------------------+-----------------------+
+                            |
+                            v
+      +---------------------------------------------+
+      |             Front-end (React)               |
+      |      (Componentes, Redux, Axios)            |
+      +---------------------+-----------------------+
+                            |
+                            v
+      +---------------------------------------------+
+      |             API Back-end (Node.js)          |
+      |        (Express.js, Roteamento)             |
+      +---------------------+-----------------------+
+                            |
+                            v
+      +---------------------------------------------+
+      |             Banco de Dados (MongoDB)        |
+      |            (Mongoose ODM)                   |
+      +---------------------+-----------------------+
+                            |
+                            v
+      +---------------------------------------------+
+      |        Serviços Externos (Autenticação,     |
+      |        Pagamentos, Notificações)            |
+      | (Firebase, Stripe, SendGrid, Twilio)        |
+      +---------------------------------------------+
+
+Serviço de Hospedagem:
+
+Utilização de serviços de hospedagem na nuvem, como AWS (Amazon Web Services).
+
+Utilização de Netlify hospedar o front-end React.
+Configuração de Servidores:
+
+Configuração de servidores EC2 na AWS para hospedar o back-end.
+Configuração de MongoDB Atlas para a gestão do banco de dados MongoDB.
+Deploy Contínuo:
+
+Configuração de pipelines CI/CD (Continuous Integration/Continuous Deployment) usando GitHub Actions.
+Deploy automático do front-end para Vercel/Netlify e do back-end para Heroku/AWS após cada push no repositório GitHub.
+Configuração de Domínio e SSL:
+
+Registro de domínio personalizado através de serviços como GoDaddy ou Namecheap.
+Configuração de SSL/TLS para segurança usando serviços como certificados provisionados pelo provedor de hospedagem.
+Monitoramento e Escalabilidade:
+
+Uso de ferramentas de monitoramento como AWS CloudWatch para rastreamento de desempenho e logs.
+Configuração de balanceamento de carga e autoescalonamento no AWS para garantir a disponibilidade e escalabilidade do serviço
 
 ## Hospedagem
 

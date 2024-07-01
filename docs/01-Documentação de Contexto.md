@@ -32,11 +32,3 @@ Com o aumento significativo do mercado de eventos e a crescente variedade de ati
 
 O público-alvo desse site é composto por entusiastas de todas as idades e interesses que buscam aprender, explorar e participar de uma variedade de eventos. Isso permite incluir aqueles que gostam de assistir a concertos, festivais, exposições de arte, seminários, conferências e eventos esportivos, entre outros. O site visa atender às necessidades de um público altamente diversificado, fornecendo uma plataforma onde os usuários podem encontrar informações sobre eventos que sejam relevantes para seus interesses específicos.
 
-
-[Entendimento 02 - Mapa de Stakeholders-1.docx](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2024-1-1-ti-aw-t1-aicheck/files/15055784/Entendimento.02.-.Mapa.de.Stakeholders-1.docx)
-
-# Entrevista
-
-[Entrevista.docx](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2024-1-1-ti-aw-t1-aicheck/files/15055849/Entrevista.docx)
-
-[Empatia 01 - Coleta - Entrevista Qualitativa 1.docx](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2024-1-1-ti-aw-t1-aicheck/files/15055852/Empatia.01.-.Coleta.-.Entrevista.Qualitativa.1.docx)

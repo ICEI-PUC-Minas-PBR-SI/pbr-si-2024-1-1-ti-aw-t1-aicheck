@@ -24,29 +24,25 @@ Lucas Alvarenga, um adolescente de 18 anos, gosta de jogar futebol, sair com os 
 
 ## Histórias de Usuários
 
-Camila contacta a empresa explica suas preocupações e necessidades. Camila enfatiza a importância de manter sua autenticidade e transparência com seus seguidores, e expressa sua preocupação com a disseminação de informações falsas em seu nome. O representante da empresa ouve atentamente suas preocupações e explica os serviços que podem oferecer para proteger sua identidade e reputação online.
+Adriana, que adora aprender e expandir seu networking, quer usar o app para descobrir e participar de conferências de química industrial. Ela precisa ver detalhes como palestrantes, temas e poder se inscrever facilmente.
 
-Camila estava viajando de carro quando ficou sabendo de um vídeo falso a envolvendo em que seus seguidores estão achando que é real, a viagem é longa e ela teme a repercussão enquanto não poder tomar providências
+Adriana quer compartilhar sua opinião e ler feedbacks de outros participantes sobre os eventos que ela frequenta. Isso vai ajudá-la a escolher os melhores eventos para suas necessidades profissionais.
 
-Maria está querendo aproveitar seu tempo de aposentada para utilizar mais da internet, ao mesmo tempo ela teme ser vitima de criminosos virtuais, ela pesquisa por serviços que podem auxilia-la
+Lucas, que adora música e fazer novas amizades, quer usar o app para descobrir shows e festivais perto dele. Ele precisa de informações como gênero musical, localização e até ver quais amigos estão interessados nos mesmos eventos.
 
-Maria baixou o aplicativo, mas ainda possui várias dúvidas de como usá-lo 
+Lucas quer se sentir seguro ao participar de eventos. Ele espera encontrar no app informações detalhadas sobre a segurança no local, dicas de segurança pessoal e alertas sobre quaisquer mudanças de última hora nos eventos que planeja participar.
 
 |EU COMO... `Camila` | QUERO/PRECISO ... `FUNCIONALIDADE`       |PARA ... `MOTIVO/VALOR`                                                           |
 |--------------------|------------------------------------------|----------------------------------------------------------------------------------|
-|Usuário do sistema  | Informar os tipos de golpes              | Ficar ciente das novas armadilhas e saber se proteger                            |
-|Usuário do sistema  | Relatórios Detalhados                    | Explicar de maneira clara ao usuário para que ele entenda o resultado da análise |
-|Usuário do sistema  | Precisão na Detecção                     | Aumentar a confiabilidade dos clientes e se destacar em relação a concorrência   |
-|Usuário do sistema  | Suporte a diversos dispositivos          | Aumentar o alcance de acesso e uso do seu sistema                                |
-|Usuário do sistema  | Suporte a Diferentes Formatos de Arquivo | Aumentar a variedade de usos do sistema                                          |
+|Usuário do sistema  | Se inscrever facilmente                  | Evitar dor de cabeça e stress ao utilizá-lo                                      |
+|Usuário do sistema  | Grande variedade de eventos              | Adriana pode pesquisar eventos muito específicos                                 |
+
 
 |EU COMO... `Maria ` | QUERO/PRECISO ... `FUNCIONALIDADE`       |PARA ... `MOTIVO/VALOR`                                                           |
 |--------------------|------------------------------------------|----------------------------------------------------------------------------------|
-|Usuário do sistema  | Informar os tipos de golpes              | Ficar ciente das novas armadilhas e saber se proteger                            |
-|Usuário do sistema  | Relatórios Detalhados                    | Explicar de maneira clara ao usuário para que ele entenda o resultado da análise |
-|Usuário do sistema  | Interface Amigável                       | Para que usuários leigos possam navegar e usar os recursos sem dificuldade.      |
-|Usuário do sistema  | Proteção de Dados                        | Aumentar a confiabilidade dos clientes                                           |
-|Usuário do sistema  | Suporte ao Cliente                       | Auxiliar usuários com dúvidas durante o uso da plataforma                        |
+|Usuário do sistema  | Informações detalhada                    | Segurança do indivíduo e evitar decepção a frequentar o evento                   |
+|Usuário do sistema  | Descobrir shows e festivais              | É o tipo de evento preferido do usuário                                          |
+
 
 ## Requisitos
 
@@ -54,11 +50,12 @@ Maria baixou o aplicativo, mas ainda possui várias dúvidas de como usá-lo
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|------------------------------------------|-------|
-|RF-001| Informar os tipos de golpes              | ALTA  | 
-|RF-002| Relatórios Detalhados                    | MÉDIA |
+|RF-001| Cadastro do Usuário                      | ALTA  | 
+|RF-002| Enviar notificações personalizadas aos 
+|      |usuários                                  | MÉDIA |
 |RF-003| Precisão na Detecção                     | MÉDIA |
 |RF-004| Suporte a diversos dispositivos          | ALTA  |
-|RF-005| Suporte a Diferentes Formatos de Arquivo | ALTA  |
+|RF-005| Suporte a diversas cidades               | ALTA  |
 |RF-006| Interface Amigável                       | MÉDIA |
 |RF-007| Proteção de Dados                        | MÉDIA |
 |RF-008| Suporte ao Cliente                       | BAIXA |
@@ -69,7 +66,7 @@ Maria baixou o aplicativo, mas ainda possui várias dúvidas de como usá-lo
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel    |  MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 5s                |  BAIXA |
-|RNF-002| O sistema deve ser capaza de suportar até 50.000 acessos simultaneos |  BAIXA | 
+|RNF-003| O sistema deve ser capaza de suportar até 50.000 acessos simultaneos |  BAIXA | 
 
 ## Restrições
 

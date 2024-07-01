@@ -4,11 +4,25 @@
 
 Visão geral:
 
-> - 1)Algoritmos de Recomendação: Usamos algoritmos de recomendação baseados em aprendizado de máquina para sugerir eventos aos usuários com base em seus interesses, históricos de navegação e preferências anteriores. A filtragem colaborativa, a filtragem baseada em conteúdo e os sistemas de recomendação híbridos podem fazer parte disso. 
-> - 2)Processamento de Texto: Analisamos descrições de eventos usando técnicas de processamento de texto para encontrar palavras-chave e extrair informações pertinentes, como localização, data, hora e tipo de evento. Além de ajudar na classificação e categorização dos eventos, isso aumenta a precisão das recomendações.
-> - 3)Algoritmos de Busca: Criamos algoritmos de busca eficientes para que os usuários encontrem facilmente eventos específicos. Isso permite incluir métodos de busca binária, em largura e em profundidade, combinados com algoritmos de indexação e classificação com base na relevância. 
-> - 4)Análise de Dados Geoespaciais: Fornecemos aos usuários informações sobre eventos próximos à sua localização atual por meio da utilização da análise de dados geoespaciais. Isso requer o uso de algoritmos de geolocalização e análise de proximidade para identificar eventos pertinentes em uma área geográfica específica. 
-> - 5)Algoritmos de Detecção de Anomalias: Usamos algoritmos de detecção de anomalias para encontrar e reduzir atividades fraudulentas ou suspeitas relacionadas à compra de ingressos ou inscrição em eventos. Detecção de padrões de comportamento incomuns, detecção de robôs e análise de transações suspeitas são exemplos de métodos que podem fazer parte disso.
+Centralização de Eventos: Consolidar eventos de diferentes categorias (música, esportes, negócios, etc.) em um único aplicativo para conveniência dos usuários.
+
+Facilidade de Uso: Oferecer uma interface intuitiva e amigável que permita aos usuários buscar eventos, comprar ingressos, salvar eventos em calendários pessoais e interagir com amigos.
+
+Personalização: Utilizar dados de preferências e histórico de eventos dos usuários para fornecer recomendações personalizadas e notificações relevantes.
+
+Segurança e Confiança: Garantir a verificação de segurança dos eventos listados e proteção das informações pessoais dos usuários.
+
+Integração Social: Permitir que os usuários compartilhem eventos com amigos através de redes sociais integradas e vejam quem mais está interessado nos mesmos eventos.
+
+Feedback e Avaliação: Incentivar a interação dos usuários através de avaliações e comentários sobre os eventos, ajudando na decisão de participação futura.
+
+Suporte Multilíngue e Acessibilidade: Garantir que o aplicativo seja acessível globalmente, suportando múltiplos idiomas e sendo acessível para usuários com necessidades especiais.
+
+Desempenho e Escalabilidade: Assegurar que o aplicativo seja robusto o suficiente para lidar com um grande volume de usuários simultâneos e eventos listados.
+
+Compliance Legal: Cumprir com regulamentações de proteção de dados e direitos do consumidor em todas as operações do aplicativo.
+
+Inovação Contínua: Implementar melhorias contínuas com base no feedback dos usuários e nas tendências do mercado de eventos, visando sempre proporcionar uma experiência superior.
 
 
 ## Personas
